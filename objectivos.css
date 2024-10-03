@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centraliza no eixo horizontal */
+    align-items: center; /* Centraliza no eixo vertical */
+    height: 100vh; 
+   
+  
+}
+
+.contar {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    max-width: 1200px;
+    width: 100%;
+    
+   
+    
+}
+
+.cardo {
+    background-color: #3f429f;
+    color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    align-items: center;
+    max-width: 300px;
+}
+
+.cardo:hover {
+    transform: translateY(-5px);
+}
+
+h {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #fff; 
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}

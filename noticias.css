@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+   /*  /* Adiciona sombra ao container */
+
+    
+  }
+  .noticias {
+    display: flex; /* Exibe as notícias em uma linha */
+    flex-wrap: wrap; /* Permite que as notícias quebrem para a próxima linha quando não há espaço suficiente */
+    justify-content: space-between; /* Distribui o espaço horizontalmente entre as notícias */
+
+  }
+  .noticia {
+    width: calc(50% - 10px); /* Define a largura das notícias para ocupar metade da largura do container, com um espaço de 10px entre elas */
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  .noticia img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+  
+  }
+
+  .noticia p {
+    color: #333; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.5; /* Altura da linha para melhor legibilidade */
+    margin-top: 20px; /* Espaçamento superior */
+    margin-bottom: 30px; /* Adiciona espaço entre o parágrafo e a imagem */
+  }
+  
+  .noticia h2, .noticia p {
+    margin: 0;
+  }
+  .noticia .descricao {
+    padding: 20px;
+  }

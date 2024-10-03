@@ -1,0 +1,233 @@
+/* Estilo personalizado para ajustar o tamanho do carrossel */
+.half-height-carousel {
+  height: 50vh; /* Define a altura do carrossel como 50% da altura da tela */
+}
+
+.carousel-item img {
+  height: 500px; /* Reduz a altura das imagens dentro dos itens do carrossel */
+  object-fit: cover; /* Garante que as imagens mantenham suas proporções ao redimensionar */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.0); /* Adiciona um fundo escuro semi-transparente para legibilidade do texto */
+  color: #fff; /* Cor do texto */
+  border-radius: 5px; /* Borda arredondada */
+  padding: 20px; /* Espaçamento interno */
+  position: absolute; /* Posicionamento absoluto para sobrepor a imagem */
+  bottom: 0; /* Alinha a legenda na parte inferior */
+  right: 0; /* Alinha a legenda à direita */
+  top: 50%; /* Alinha a legenda na parte superior */
+  left: 50%; /* Alinha a legenda à esquerda */
+  transform: translate(-50%, -50%); /* Centraliza vertical e horizontalmente */
+}
+
+.carousel-caption h2 {
+  font-size: 32px; /* Tamanho da fonte do título */
+  margin-bottom: 10px; /* Espaçamento inferior do título */
+}
+
+.carousel-caption p {
+  font-size: 20px; /* Tamanho da fonte do texto */
+  margin-bottom: 20px; /* Espaçamento inferior do texto */
+}
+
+.carousel-caption .main-btn {
+  background-color: #084B8A; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 25px; /* Espaçamento interno do botão */
+  border-radius: 5px; /* Borda arredondada do botão */
+  text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.frase {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.frase .card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.frase .card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.frase .card p {
+  font-size: 18px;
+  color: #555;
+}
+
+.navbar-text-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333; /* Ajuste conforme necessário */
+  color: white;
+  z-index: 1030;
+  padding: 5px 0;
+}
+
+.navbar-custom {
+  position: fixed;
+  top: 50px; /* Ajuste conforme necessário */
+  width: 100%;
+  z-index: 1020;
+  background-color: #FFFFFF; /* Ajuste conforme necessário */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+  }
+
+  .navbar-nav.ml-auto {
+    margin-left: 0 !important;
+  }
+}
+
+body {
+  padding-top: 100px; /* Ajuste conforme necessário para evitar sobreposição do conteúdo */
+}
+
+.espaço {
+  margin-left: 15px;
+}
+
+/* Estilo para o nome do usuário */
+.user-nome i {
+  font-weight: bold !important;
+  color: #007bff !important; /* Cor personalizada para o nome do usuário */
+}
+
+.navbar-custom .btn-link {
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estilos personalizados */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .nav-link {
+  color: #333 !important;
+}
+
+.nav-link:hover {
+  color: #666 !important;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 0.5rem 1.5rem;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+  }
+
+  .navbar-nav.ml-auto {
+    margin-left: 0 !important;
+  }
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  margin-right: 9rem;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #007bff; /* Azul */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer .contact-info {
+  margin-bottom: 10px;
+}
+
+.footer .subscription-form {
+  margin-top: 20px;
+}
+
+.footer .copyright {
+  text-align: center;
+  margin-top: 10px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-price {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.user-dropdown {
+  margin-right: 20px; /* Ajuste o valor conforme necessário */
+}
